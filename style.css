@@ -1,6 +1,5 @@
 body {
 	font-family: Roboto;
-
 	display: flex;
 	flex-direction: column;
 }
@@ -28,17 +27,15 @@ body {
 	color: #f9faf8;
 	font-weight: 900;
 
-	width: 100%;
-
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-content: center;
-	align-items: center;
+	align-items: stretch;
 	padding: 32px;
 	gap: 48px;
 }
 .hero-left-container {
-	/*max-width: 400px;*/
+	max-width: 400px;
 	flex: 1;
 	margin: 16px;
 }
@@ -52,10 +49,14 @@ body {
 }
 .hero img {
 	flex: 1;
-	/*max-width: 400px;*/
+	align-content: center;
+	text-align: center;
+	font-size: 12px;
+	background: gray;
+	max-width: 400px;
 }
 
-ul {
+i ul {
 	list-style-type: none;
 
 	display: flex;
@@ -88,7 +89,8 @@ button {
 .card-container {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	/* align-items: center; */
+	align-items: stretch;
 	gap: 24px;
 	font-size: 16px;
 	font-weight: 300;
@@ -97,15 +99,25 @@ button {
 }
 
 .card {
+	width: 150px;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+
+	text-align: center;
+	text-wrap: pretty;
 }
 .card img {
 	border: 5px solid #3882f6;
 	border-radius: 16px;
+	height: 100px;
+	width: 100px;
+	align-content: center;
+	text-align: center;
+	font-size: 12px;
 }
 
 /* inspiring quote part */
